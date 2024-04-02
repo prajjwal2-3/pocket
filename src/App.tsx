@@ -32,6 +32,9 @@ function App() {
     alt="pending"
   />
 </div>
+{/* <div className="w-8/12 m-2 text-center text-black font-semibold text-xl ">
+       Power the best business and legal team.
+      </div> */}
     </div>
    
     <div className="w-[80rem] h-[80rem] absolute mt-[20rem] blur-3xl bg-blue-500/20 rounded-full"></div>
@@ -42,7 +45,9 @@ function App() {
   />
   
       </div>
-      <div className="w-full h-48">.</div>
+      <div className="w-full text-center text-white/50 font-semibold text-xl z-10 mt-32 h-48">
+      Power the best business and legal team.
+      </div>
     </div>
   );
 }
