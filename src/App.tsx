@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { SvgComponent } from "./components/image";
 function App() {
   return (
     <div className="h-auto bg-[rgb(22,22,24)] flex flex-col items-center">
@@ -112,6 +113,9 @@ function App() {
             <img className="w-48 h-48" src="https://res.cloudinary.com/dzkldv06d/image/upload/v1712159898/svgexport-7_1_guroio.svg" alt="Sass" />
         </li>
     </ul>
+</div>
+<div className="w-6/12 h-auto">
+<SvgComponent />
 </div>
     </div>
   );
