@@ -3,10 +3,10 @@
 export const Infinitescrollbrand = () => {
   return (
    <>
-   <div className="w-full text-center text-white/50 font-semibold text-xl z-10 mt-32 h-auto">
+   <div className="sm:w-full w-8/12 text-center text-white/50 font-semibold text-xl z-10 mt-64 sm:mt-48 h-auto">
       Power the best business and legal team.
       </div>
-      <div className="w-10/12 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+      <div className="w-10/12 inline-flex flex-nowrap sm:mb-28 mb-16 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
     <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
             <img className="w-48 h-44"  src="https://res.cloudinary.com/dzkldv06d/image/upload/v1712160175/svgexport-10_mc4o8r.svg" alt="Facebook" />
