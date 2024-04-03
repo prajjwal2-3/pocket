@@ -134,7 +134,6 @@ export default () => {
     idx: null,
   });
 
-  // Replace javascript:void(0) paths with your paths
   const navigation = [
     {
       title: "Features",
