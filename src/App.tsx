@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import {Infinitescrollbrand} from "./components/infinitescrollbrand";
 import { SvgComponent } from "./components/image";
+import { SvgComponent2 } from "./components/image2";
 import Blackbutton from "./components/Blackbutton";
 import Hero from "./components/Hero";
 import CustomizedAccordions from "./components/Accordian";
@@ -11,14 +12,14 @@ function App() {
       <Header />
       <Blackbutton/>
       <Hero/>
-    <Infinitescrollbrand/>
+      <Infinitescrollbrand/>
       <Para/>
 <div className="w-full flex flex-row justify-around h-auto">
 <div className="sm:w-5/12 w-11/12">
 <CustomizedAccordions/>
 </div>
 <div className="w-5/12  sm:block hidden ">
-<SvgComponent />
+<SvgComponent2 />
 </div>
 </div>
     </div>
