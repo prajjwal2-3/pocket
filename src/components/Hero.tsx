@@ -1,21 +1,50 @@
-
+import {motion} from 'framer-motion'
 
 const Hero = () => {
   return (
     <div className="relative w-full h-auto flex flex-col    items-center">
     <div className="absolute  z-10 flex flex-col  items-center">
     <div className="sm:w-8/12   text-center flex flex-col justify-center items-center ">
-        <div className="sm:text-[5rem] text-[2rem] m-2 font-bold text-center font-serif text-white">
+        <motion.div className="sm:text-[5rem] text-[2rem] m-2 font-bold text-center font-serif text-white"
+        animate={{
+          opacity:[0,1],
+          y:[80,0]
+         }}
+         transition={{
+          duration:1,
+          
+          type:"keyframes"
+         }}
+        >
           The most powerful and intuitive legal platform
-        </div>
-        <div className="sm:w-8/12 m-2 text-center text-white/70 font-semibold sm:text-xl">
+        </motion.div>
+        <motion.div className="sm:w-8/12 m-2 text-center text-white/70 font-semibold sm:text-xl"
+          animate={{
+            opacity:[0,1],
+            y:[100,0]
+           }}
+           transition={{
+            duration:1,
+            
+            type:"keyframes"
+           }}
+        >
           Pocketlaw is the new standard for legal management. Streamline
           contract lifecycles, task management and legal data insights and
           intelligence. Powered by AI.
-        </div>
-        <div className="">
-          <button className="bg-yellow-400 px-4 py-2 rounded-full mt-12">Get a demo</button>
-        </div>
+        </motion.div>
+        <motion.div className=""
+         animate={{
+          opacity:[0,1],
+          y:[110,0]
+         }}
+         transition={{
+          duration:1,
+          
+          type:"keyframes"
+         }}>
+          <button className="bg-yellow-400 hover:bg-yellow-400/80 px-4 py-2 rounded-full mt-12">Get a demo</button>
+        </motion.div>
       </div>
       <div className="flex flex-col items-center my-14">
 <img

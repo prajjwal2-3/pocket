@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import {motion} from 'framer-motion'
 import {Infinitescrollbrand} from "./components/infinitescrollbrand";
 import Blackbutton from "./components/Blackbutton";
 import Hero from "./components/Hero";
@@ -8,8 +9,20 @@ function App() {
   return (
     <div className="h-auto bg-[rgb(22,22,24)] flex flex-col items-center">
       <Header />
-      <Blackbutton/>
-      <Hero/>
+      
+     <motion.div className=""
+     animate={{
+      opacity:[0,1],
+      y:[60,0]
+     }}
+     transition={{
+      duration:1,
+      type:"keyframes"
+     }}
+     >
+     <Blackbutton/>
+     </motion.div>
+     <Hero/>
       <Infinitescrollbrand/>
       <Para/>
 <div className="w-full flex flex-row justify-around h-auto">
