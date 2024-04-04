@@ -55,7 +55,7 @@ export const SvgComponent3 = (props: SVGProps<SVGSVGElement>) => (
       <motion.rect
         animate={{
             opacity: [0, 1], 
-            y: [80, 0] 
+            y: [120, 0] 
           }}
           transition={{
             duration: 1,

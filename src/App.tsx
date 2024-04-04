@@ -3,6 +3,9 @@ import {Infinitescrollbrand} from "./components/infinitescrollbrand";
 import { SvgComponent } from "./components/image";
 import { SvgComponent2 } from "./components/image2";
 import { SvgComponent3 } from "./components/image3";
+import { SvgComponent5 } from "./components/image5";
+import { SvgComponent4 } from "./components/image4";
+import { SvgComponent6 } from "./components/image6";
 import Blackbutton from "./components/Blackbutton";
 import Hero from "./components/Hero";
 import CustomizedAccordions from "./components/Accordian";
@@ -20,7 +23,7 @@ function App() {
 <CustomizedAccordions/>
 </div>
 <div className="w-5/12  sm:block hidden ">
-<SvgComponent3 />
+<SvgComponent6 />
 </div>
 </div>
     </div>
