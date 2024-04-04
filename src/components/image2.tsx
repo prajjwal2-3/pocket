@@ -12,7 +12,7 @@ export const SvgComponent2 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <g id="Group 2">
-      <rect id="outer" width={1569} height={1557} fill="url(#pattern0_118_6)" rx={100} />
+      <rect id="outer" width={1569} height={1557} fill="url(#pattern0_118_6)"  />
     
       
       <motion.rect

@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import {Infinitescrollbrand} from "./components/infinitescrollbrand";
 import { SvgComponent } from "./components/image";
 import { SvgComponent2 } from "./components/image2";
+import { SvgComponent3 } from "./components/image3";
 import Blackbutton from "./components/Blackbutton";
 import Hero from "./components/Hero";
 import CustomizedAccordions from "./components/Accordian";
@@ -19,7 +20,7 @@ function App() {
 <CustomizedAccordions/>
 </div>
 <div className="w-5/12  sm:block hidden ">
-<SvgComponent2 />
+<SvgComponent3 />
 </div>
 </div>
     </div>

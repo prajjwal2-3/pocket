@@ -16,7 +16,7 @@ import {motion} from 'framer-motion'
    rx={100}
    />
     <g id="Group 1">
-      <rect id="1" width={1612} height={1549} fill="url(#pattern0)" rx={100} />
+      <rect id="1" width={1612} height={1549} fill="url(#pattern0)"  />
       <motion.rect
         id="2"
         animate={{
