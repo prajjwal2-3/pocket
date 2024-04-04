@@ -13,12 +13,10 @@ function App() {
       <Infinitescrollbrand/>
       <Para/>
 <div className="w-full flex flex-row justify-around h-auto">
-<div className="sm:w-full w-full mt-40 mx-20">
+<div className="sm:w-full w-full sm:my-40 my-20 sm:mx-20">
 <CustomizedAccordions/>
 </div>
-{/* <div className="w-5/12  sm:block hidden ">
-<SvgComponent7 />
-</div> */}
+
 </div>
     </div>
   );
