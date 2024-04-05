@@ -32,9 +32,9 @@ function App() {
 </div>
 
 </div>
-<div className="w-full">
+
 <Moun/>
-</div>
+
     </div>
   );
 }
