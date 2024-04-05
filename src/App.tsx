@@ -34,9 +34,11 @@ function App() {
 
 </div>
 
-<div className="w-full ">
+
+<div className="relative w-full">
 <Moun/>
 </div>
+
 <div className="w-full">
 <Testimonials/>
 </div>
