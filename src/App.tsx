@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import CustomizedAccordions from "./components/Accordian";
 import Para from "./components/Para";
 import Moun from "./components/Moun";
+import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <div className="h-auto bg-[rgb(22,22,24)] flex flex-col items-center">
@@ -33,8 +34,12 @@ function App() {
 
 </div>
 
+<div className="w-full ">
 <Moun/>
-
+</div>
+<div className="w-full">
+<Testimonials/>
+</div>
     </div>
   );
 }

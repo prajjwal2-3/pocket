@@ -21,7 +21,7 @@ import {motion} from 'framer-motion'
         id="2"
         animate={{
             opacity: [0, 1], 
-            y: [40, 0] 
+            y: [20, 0] 
           }}
           transition={{
             duration: 1,
@@ -42,7 +42,7 @@ import {motion} from 'framer-motion'
         id="3"
         animate={{
             opacity: [0, 1], 
-            y: [40, 0] 
+            y: [30, 0] 
           }}
           transition={{
             duration: 1,
@@ -84,7 +84,7 @@ import {motion} from 'framer-motion'
         id="5"
         animate={{
             opacity: [0, 1], 
-            y: [40, 0] 
+            y: [50, 0] 
           }}
           transition={{
             duration: 1,
@@ -105,7 +105,7 @@ import {motion} from 'framer-motion'
         id="6"
         animate={{
             opacity: [0, 1], 
-            y: [40, 0] 
+            y: [60, 0] 
           }}
           transition={{
             duration: 1,
